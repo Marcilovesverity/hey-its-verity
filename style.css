@@ -6,28 +6,26 @@ body {
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 40px;
 }
 
-button {
-    display: block;
-    margin: 80px auto 0 auto;
-    font-size: 30px;
-    padding: 20px 50px;
-}
 
 
 body {
     text-align: center;
-    font-size: 30px;
+    font-size: 20px;
     background-color: red;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 40px;
 }
 
 #cruelty-btn {
     background-color: transparent;
     border: none;
+}
+
+#cruelty-btn.klickad {
+    transform: scale(0.9);
 }
